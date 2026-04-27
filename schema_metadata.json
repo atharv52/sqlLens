@@ -1,0 +1,26 @@
+{
+  "table": "telecom_churn",
+  "description": "Telecom customer data used to analyze and predict churn behavior",
+  "columns": {
+    "State": "US state where the customer is located",
+    "Account length": "Number of days the customer has been with the carrier",
+    "Area code": "Customer phone area code",
+    "International plan": "Whether the customer has an international calling plan (true/false)",
+    "Voice mail plan": "Whether the customer has a voicemail plan (true/false)",
+    "Number vmail messages": "Number of voicemail messages the customer has",
+    "Total day minutes": "Total minutes spent on calls during the day",
+    "Total day calls": "Total number of calls made during the day",
+    "Total day charge": "Total charge in USD for daytime calls",
+    "Total eve minutes": "Total minutes spent on calls during the evening",
+    "Total eve calls": "Total number of calls made during the evening",
+    "Total eve charge": "Total charge in USD for evening calls",
+    "Total night minutes": "Total minutes spent on calls during the night",
+    "Total night calls": "Total number of calls made during the night",
+    "Total night charge": "Total charge in USD for night calls",
+    "Total intl minutes": "Total minutes spent on international calls",
+    "Total intl calls": "Total number of international calls made",
+    "Total intl charge": "Total charge in USD for international calls",
+    "Customer service calls": "Number of times the customer called customer service",
+    "Churn": "Whether the customer churned — true means churned, false means retained"
+  }
+}
